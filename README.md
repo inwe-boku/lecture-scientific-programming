@@ -1,8 +1,8 @@
-[![MIT license](https://badgen.net/github/license/inwe-boku/lecture-scientific-computing)](https://choosealicense.com/licenses/mit/)
+[![MIT license](https://badgen.net/github/license/inwe-boku/lecture-scientific-programming)](https://choosealicense.com/licenses/mit/)
 
 # Lecture: An introduction to scientific programming
 
-This repository contains slides and additional material for the course WISO100303 at [BOKU](boku.ac.at/).
+This repository contains slides and additional material for the course WISO100303 at [BOKU](https://boku.ac.at/).
 
 
 * [Course details in BOKUonline](https://online.boku.ac.at/BOKUonline/ee/rest/pages/slc.tm.cp/course/317880).
