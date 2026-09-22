@@ -5,5 +5,5 @@
 This repository contains slides and additional material for the course WISO100303 at [BOKU](https://boku.ac.at/).
 
 
-* [Course details in BOKUonline](https://online.boku.ac.at/BOKUonline/ee/rest/pages/slc.tm.cp/course/317880).
-* [Course in BOKU learn](https://learn.boku.ac.at/course/view.php?id=75887)
+* [Course details in BOKUonline](https://online.boku.ac.at/BOKUonline/wbLv.wbShowLVDetail?pStpSpNr=325134).
+* [Course in BOKU learn](https://learn.boku.ac.at/course/view.php?id=84276)
