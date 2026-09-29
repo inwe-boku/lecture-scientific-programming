@@ -14,7 +14,7 @@ CONGRATS_MSGS = (
     "Everything correct! 🤓",
     "Awesome! 💯",
     "Fantastic! 🚀",
-    "Execellent! ✨",
+    "Excellent! ✨",
 )
 
 
@@ -28,17 +28,17 @@ def check_solution(test_values, global_vars=None):
     See `check_equal()` for details.
 
     """
-    errors_ocurred = 0
+    errors_occurred = 0
 
     for test_value in test_values:
         if not check_equal(*test_value, global_vars=global_vars):
-            errors_ocurred += 1
+            errors_occurred += 1
             print("\n")
 
-    if errors_ocurred:
-        plural_s = "s" if errors_ocurred > 1 else ""
+    if errors_occurred:
+        plural_s = "s" if errors_occurred > 1 else ""
         print(
-            f"❌ {errors_ocurred} error{plural_s} occured! Please "
+            f"❌ {errors_occurred} error{plural_s} occurred! Please "
             "check the error messages above and your solution!"
         )
     else:
@@ -46,7 +46,7 @@ def check_solution(test_values, global_vars=None):
         random.seed(str(test_values))
         congrats_msg = random.choice(CONGRATS_MSGS)
 
-        # special casing for space invador exercise
+        # special casing for space invader exercise
         if "space_invader" in str(test_values):
             congrats_msg = CONGRATS_MSGS[0]
 
